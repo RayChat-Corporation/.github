@@ -1,0 +1,25 @@
+#if you want to learn python easily, start with the basics.
+#creating a simple addition program in python
+a=int(input("enter your first number"))
+b=int(input("enter your second number"))
+sum=a+b
+  print(sum)
+#here, a and b are variables(in which we store data), int means integer, input lets a user type in something, and the rest is the text which is used when a user runs the program
+#so, it becomes a=int(input("enter your first number"))
+#now we are moving to functions as you got the basics (FILE IS UPLOADED IN README, IF YOU WANT TO LEARN IN DETAIL, YOU CAN CHECK IT OUT)
+#using def greet() function
+def greet():
+    print("hello notRay")
+greet()
+#now, you all know what greet means, def means definiton, which tells the function when and where to do something, and greet is a function, so def greet() means definition is saying greet to greet the text which the user wants to be greeted
+#so it becomes def greet():
+    #print("hello, notRay")
+  #and the greet() at the bottom means that the text that will be printed, will be shown 1 time, if i type it 2 times, the greet function will work twice.
+#moving to the loops (for loop)
+  number=int(input("Enter Your Number; ")
+  for i in range(1, 11):
+print(number, "x", i, "=", number*i)
+#now what does this mean
+#this means that the number which the user will type inside the input box, will be multiplied 10 times
+#the 'for' is the for loop, i is a variable, range() is a function, and the 1, 11 inside the brackets are the numbers the times the user's input will be added/subtracted/multiplied or divided
+and the print line at the last is a simple "5 x 4 = 20" thing.
